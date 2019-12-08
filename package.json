@@ -1,6 +1,6 @@
 {
   "name": "@2003scape/rsc-sounds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "extract runescape classic sounds from cache to wav (and vice versa)",
   "main": "./src/index.js",
   "bin": {
@@ -26,10 +26,12 @@
   "homepage": "https://github.com/2003scape/rsc-sounds#readme",
   "dependencies": {
     "@2003scape/rsc-archiver": "^1.1.0",
-    "audio-speaker": "^1.5.0",
     "libsamplerate.js": "^1.0.0",
     "wavefile": "^8.4.6",
     "yargs": "^15.0.2"
+  },
+  "optionalDependencies": {
+    "audio-speaker": "^1.5.0"
   },
   "browser": {
     "audio-speaker": false
